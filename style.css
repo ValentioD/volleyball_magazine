@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    background: black;
+    color: white;
+}
+
+h1 {
+    width: 100%;
+    margin-left: 20em;
+}
+
+button {
+    width: 70%;
+}
+
+.cardSection {
+    display: flex;
+    flex-direction:row ;
+    flex-flow: wrap;
+    width: 70%;
+}
+
+.detailView {
+    width: 20%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 2em;
+    border: 2px solid #fe8231;
+
+    min-width: 20%;
+    max-width: 20%;
+    min-height: 45%;
+    max-height: 45%;
+    margin: 1em;
+
+
+}
+
+.favorite {
+    background-color: orange;
+}
